@@ -1,4 +1,7 @@
 name: Daily Repository Update
+permissions:
+  contents: write   # 👈 ADD THIS
+
 
 on:
   schedule:
