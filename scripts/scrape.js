@@ -1,10 +1,10 @@
 const { chromium } = require('playwright');
 
 // Seeds to visit
-const seeds = [51,52,53,54,55,56,57,58,59,60];
+const seeds = [60,61,62,63,64,65,66,67,68,69];
 // Provide a base URL via env var BASE_URL or default to an example pattern.
 // Replace the default with the real target before pushing to GitHub.
-const base = process.env.BASE_URL || 'https://sanand0.github.io/tdsdata/js_table/?seed=51';
+const base = process.env.BASE_URL || 'https://sanand0.github.io/tdsdata/js_table/?seed=';
 
 function extractNumbersFromText(text) {
   // match numbers, including optional commas and decimals, optionally negative
